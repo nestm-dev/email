@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      nestjs:
+        patterns:
+          - "@nestjs/*"
+      email-integrations:
+        patterns:
+          - "@react-email/*"
+          - "@types/nodemailer"
+          - "nodemailer"
+          - "react"
+          - "react-dom"
+          - "resend"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
