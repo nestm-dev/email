@@ -1,8 +1,4 @@
 {
 	"mode": "pre",
-	"tag": "alpha",
-	"initialVersions": {
-		"@nestm/email": "0.1.0-alpha.0"
-	},
-	"changesets": ["initial-email-release"]
+	"tag": "alpha"
 }

@@ -12,13 +12,13 @@ framework-neutral primitives for workers and scripts.
 - Structural Resend and Nodemailer transports
 - An in-memory transport and local testing module through `@nestm/email/testing`
 
-> This package targets the NestJS 12 prerelease line and is itself published on
+> This package targets stable NestJS 12 and is itself published on
 > the `alpha` dist-tag.
 
 ## Requirements
 
 - Node.js 22.12 or newer
-- NestJS `^12.0.0-alpha.5` for the root entry point
+- NestJS `^12.0.0` for the root entry point
 - ESM
 
 `@nestm/email/core` has no NestJS imports. Provider SDKs remain
@@ -44,11 +44,6 @@ pnpm add resend
 pnpm add nodemailer
 pnpm add --save-dev @types/nodemailer
 ```
-
-NestJS 12 alpha packages may still declare prerelease sibling ranges that npm
-rejects under its strict resolver. If npm reports `ERESOLVE` for Nest's own
-packages, use the equivalent package-manager override or
-`npm install --legacy-peer-deps` until those upstream ranges are widened.
 
 ## Quick start
 

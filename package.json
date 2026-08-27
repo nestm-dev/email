@@ -28,7 +28,7 @@
 	"engines": {
 		"node": ">=22.12.0"
 	},
-	"packageManager": "pnpm@11.20.0",
+	"packageManager": "pnpm@11.24.0",
 	"types": "./dist/index.d.mts",
 	"exports": {
 		".": {
@@ -98,8 +98,8 @@
 		"release": "node scripts/publish.mjs"
 	},
 	"peerDependencies": {
-		"@nestjs/common": "^12.0.0-alpha.5",
-		"@nestjs/core": "^12.0.0-alpha.5",
+		"@nestjs/common": "^12.0.0",
+		"@nestjs/core": "^12.0.0",
 		"@react-email/render": "^2.1.0",
 		"nodemailer": "^9.0.5",
 		"react": "^18.0.0 || ^19.0.0",
@@ -139,28 +139,28 @@
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "0.18.5",
-		"@changesets/cli": "2.31.1",
-		"@nestjs/common": "12.0.0-alpha.5",
-		"@nestjs/core": "12.0.0-alpha.5",
-		"@nestjs/testing": "12.0.0-alpha.5",
+		"@changesets/cli": "3.0.1",
+		"@nestjs/common": "12.0.1",
+		"@nestjs/core": "12.0.1",
+		"@nestjs/testing": "12.0.1",
 		"@react-email/render": "2.1.0",
-		"@types/node": "26.1.2",
+		"@types/node": "26.4.0",
 		"@types/nodemailer": "8.0.1",
 		"@types/react": "19.2.18",
-		"@types/react-dom": "19.2.4",
-		"@vitest/coverage-v8": "4.1.10",
-		"nodemailer": "9.0.5",
-		"oxlint": "1.77.0",
+		"@types/react-dom": "19.2.5",
+		"@vitest/coverage-v8": "4.1.11",
+		"nodemailer": "9.0.6",
+		"oxlint": "1.80.0",
 		"oxlint-tsgolint": "7.0.2001",
 		"prettier": "3.9.6",
-		"publint": "0.3.23",
+		"publint": "0.3.24",
 		"react": "19.2.8",
 		"react-dom": "19.2.8",
 		"reflect-metadata": "0.2.2",
-		"resend": "6.18.1",
+		"resend": "6.24.0",
 		"rxjs": "7.8.2",
 		"tsdown": "0.22.14",
 		"typescript": "7.0.2",
-		"vitest": "4.1.10"
+		"vitest": "4.1.11"
 	}
 }
