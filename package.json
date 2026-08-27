@@ -1,6 +1,6 @@
 {
 	"name": "@nestm/email",
-	"version": "0.1.0-alpha.0",
+	"version": "0.1.0-alpha.1",
 	"description": "Provider-neutral email delivery for NestJS 12 with pluggable transports, renderers, typed DI, and testing utilities.",
 	"license": "BSD-3-Clause",
 	"author": "nestm",
