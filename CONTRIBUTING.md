@@ -7,8 +7,8 @@ corepack enable
 pnpm install
 ```
 
-Node.js 22.12 or newer is required. The package is ESM-only and targets the
-NestJS 12 prerelease line.
+Node.js 22.12 or newer is required. The package is ESM-only and targets stable
+NestJS 12.
 
 ## Workflow
 
