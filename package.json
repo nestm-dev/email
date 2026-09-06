@@ -150,7 +150,7 @@
 		"@types/react-dom": "19.2.5",
 		"@vitest/coverage-v8": "4.1.11",
 		"nodemailer": "9.0.6",
-		"oxlint": "1.80.0",
+		"oxlint": "1.81.0",
 		"oxlint-tsgolint": "7.0.2001",
 		"prettier": "3.9.6",
 		"publint": "0.3.24",
